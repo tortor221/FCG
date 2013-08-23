@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Freeman Consulting Group</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+        <script src="js/bootstrap.min.js"></script>
+    
+        <!-- Jquery -->
+        <script src="http://code.jquery.com/jquery.js"></script>
+        
+        <!-- CSS (move to another file)-->
+        <style type="text/css">
+            
+            /* large desktop */
+            @media (min-width: 980px){
+                body {
+                  padding-top: 60px;
+                }
+            }
+            
+            body > .navbar .brand {
+                color: #000000;
+                float: right;
+                font-weight: bold;
+                margin-left: 20px;
+                padding-left: 0;
+                padding-right: 0;
+                text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 0 30px rgba(255, 255, 255, 0.125);
+                transition: all 0.2s linear 0s;
+            }
+            
+            .footer {
+                background-color: #F5F5F5;
+                border-top: 1px solid #E5E5E5;
+                margin-top: 70px;
+                padding: 30px 0;
+                text-align: center;   
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="brand" href="#">Freeman Consulting Group</a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="officers.html">Officers</a></li>
+                            <li><a href="#projects.html">Projects</a></li>
+                            <li><a href="#propose.html">Propose a project</a></li>
+                            <li><a href="#members.html">Membership</a></li>
+                            <li><a href="#events.html">Events</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- container -->
+        <div class="container">
+            <div class="row">
+
+                <!-- main content -->
+                <div class="span9 well">
+                    <img src="img/header.jpg" class="img-polaroid"/>
+                    <h3>Welcome to the Freeman Consulting Group</h3>
+                    <hr/>
+                    
+                    <div class="row">
+                        <div class="span4">
+                            <h4 id="whoweare">Who we are</h4>
+                            <p>The Freeman Consulting Group (FCG) provides business consulting to local organizations on a non-fee basis. The FCG exists through the support of the Tulane Association of Business Alumni and the Levy-Rosenblum Institute for Entrepreneurship.</p>
+                            <p>The Freeman Consulting Group benefits from a richly diverse group of students from Tulane University’s Freeman School of Business and Law School.  Freeman Consulting Group members have either lived or studied in over thirty countries and many speak more than two languages fluently. Most graduate members have worked full-time, or as summer associates, in the consulting industry and these members actively lead all of our projects. Our undergraduate members come from diverse backgrounds and offer fresh perspectives while learning about the structure of the consulting industry first-hand. All of our teams possess the consulting industry know-how and the ability to handle today's business problems. </p>
+                        </div>
+                        
+                        <div class="span4">
+                            <h4 id="mission">Mission</h4>
+                            <p>The mission of the Freeman Consulting Group is to offer experiential learning opportunities to Tulane University's graduate and undergraduate business students.  The Freeman Consulting Group partners with small businesses and non-profits in the New Orleans area to help address their most critical challenges and to ensure that they can secure lasting results.  We seek to create positive change in our members, our clients, and our city.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="span4">
+                    
+                            <h4 id="howwework">How we work</h4>
+                            <p>Teams of students work under the supervision of Freeman School faculty, staff, and alumni to assist clients with marketing plans, feasibility analyses, accounting and information systems, and other business needs.
+        FCG members work with their clients to define an achievable scope of work that will provide the client with a solution that both addresses the client’s objectives and can be implemented. The client is keep abreast of progress and milestones accomplished by FCG members throughout the consulting period.</p>
+                            
+                        </div>
+                        
+                        <div class="span4">
+                            <h4 id="benefits">Benefits</h4>
+                            <p>Clients of the Freeman Consulting Group are presented with workable solutions to meet their business objectives, while FCG members gain valuable consulting experience.  The FCG sees itself as being an integral part of New Orleans and its sustained recovery from Hurricane Katrina. </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <!-- right column -->
+                <div class="span2">
+                    <ul class="nav nav-list affix">
+                        <li class="nav-header"><i class="icon-info-sign"></i>Links</li>
+                        <li><a href="http://www.tulane.edu">Tulane University</a></li>
+                        <li><a href="http://www.freeman.tulane.edu">A.B.Freeman School of Business</a></li>
+                        <li><a href="http://www.freeman.tulane.edu/centers/lri/default.php/">Levy-Rosenblum Institute for Entrepreneurship</a></li>
+                        <li><a href="http://www.freeman.tulane.edu/centers/fbc/default.php">Tulane Family Business Center</a></li>
+                        <li class="divider"></li>
+                        <li class="nav-header"><i class="icon-thumbs-up"></i>Follow us on</li>
+                        <ul class="nav">
+                            <li><a href="http://www.facebook.com/pages/Freeman-Consulting-Group/236616796362648">Facebook</a></li>
+                            <li><a href="https://twitter.com/#%21/TulaneFCG">Twitter</a></li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy;2013 Freeman Consulting Group | Made with <a href="http://getbootstrap.com/">Bootstrap</a></p>
+                <p><a href="http://glyphicons.com">Glyphicons Free</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></p>
+            </div>
+        </footer>
+    </body>
+</html>
