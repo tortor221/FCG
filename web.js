@@ -5,7 +5,8 @@ var app = express.createServer(express.logger());
 app.use(express.static(__dirname));
 app.use(function(request, response) {
     var fs = require('fs');
-    var content = fs.readFileSync('index.html').toString();
+    var content = fs.readFileSync('404.html').toString();
+    response.status(404);
     response.send(content);
 });
 

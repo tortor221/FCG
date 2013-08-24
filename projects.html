@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Freeman Consulting Group</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- JQuery -->
+        <script src="http://code.jquery.com/jquery.js"></script>
+        
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+        <script src="js/bootstrap.min.js"></script>        
+        
+        <!-- CSS -->
+        <link href="css/theme.css" rel="stylesheet" media="screen">
+        
+        <!-- JS -->
+        <script src="js/fcg.js"></script>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="#">Freeman Consulting Group</a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./officers.html">Officers</a></li>
+                            <li class="active"><a href="./projects.html">Projects</a></li>
+                            <li><a href="./propose.html">Propose a project</a></li>
+                            <li><a href="./members.html">Membership</a></li>
+                            <li><a href="./events.html">Events</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- container -->
+        <div class="container">
+            <div class="row">
+                
+                <!-- center -->
+                <div class="span9 well">
+                    <!-- header -->
+                    <img src="img/header.jpg" class="img-polaroid"/>
+                    <h3>Consulting Projects</h3>
+                    <hr/>
+                    
+                    <!-- content begin-->
+                    <div class="row">
+                        <div class="span2">
+                            <ul class="nav nav-list">
+                                <li><a data-toggle="collapse" data-target="#current"><em>Current Projects</em></a></li>
+                                <li id="current" class="collapse">
+                                    <ul class="nav nav-list">
+                                        <li class="disabled"><a>To be updated</a></li>
+                                    </ul>
+                                </li>
+                                <li><a data-toggle="collapse" data-target="#2012"><em>2012 Projects</em></a></li>
+                                <li id="2012" class="collapse in">
+                                    <ul class="nav nav-list">
+                                        <li><a href="#lens" data-toggle="tab">The Lens</a></li>
+                                        <li><a href="#abb" data-toggle="tab">ABB Group</a></li>
+                                        <li><a href="#bewell" data-toggle="tab">Be Well</a></li>
+                                        <li><a href="#nola" data-toggle="tab">City of New Orleans</a></li>
+                                        <li><a href="#cultural_econ" data-toggle="tab">Mayor's Office of Cultural Economy</a></li>
+                                        <li><a href="#offshore" data-toggle="tab">Offshore Inland</a></li>
+                                        <li><a href="#robinson" data-toggle="tab">Robinson Lumber</a></li>
+                                        <li><a href="#south_coast" data-toggle="tab">South Coast Angel Fund</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="span7 tab-content" id="projectContent">
+                            <div id="lens" class="tab-pane fade">
+                                <h4>The Lens</h4>
+                                <hr/>
+                                <img class="img-polaroid" src="img/projects/logo-lens.png">
+                                <p>The Lens is a non-profit investigative journalism outlet that strives to provide in-depth reporting on topics important to New Orleans. Its website is at <a href="http://www.thelensnola.org">www.thelensnola.org</a>.</p>
+                            </div>
+                            <div id="abb" class="tab-pane fade">
+                                <h4>ABB Group</h4>
+                                <hr/>
+                                <img class="img-polaroid" src="img/projects/logo-abb.jpg">
+                                <p>ABB Group leads the way in power and automation technology, helping utilities lessen their environmental impact and boost performance. ABB is active in about 100 countries and reported $40 billion in global revenue in 2011. Learn more at <a href="http://www.abb.com">www.abb.com</a>.</p>
+                            </div>
+                            <div id="bewell" class="tab-pane fade">
+                                <h4>Be Well</h4>
+                                <hr/>
+                                <img class="img-polaroid" src="img/projects/logo-bewell.jpg">
+                                <p>Be Well Nutrition is a new start-up that is launching a “non-carbonated beverage that offers a convenient, nutritional alternative” for people without time for a full meal. The drink, called Iconic, is fortified with protein and vitamins and promises to satisfy hunger, provide health energy and increase focus and alertness, and with all-natural ingredients. Learn more at <a href="http://www.drinkiconic.com/">http://www.drinkiconic.com</a></p>
+                            </div>
+                            <div id="nola" class="tab-pane fade">
+                                <h4>City of New Orleans</h4>
+                                <hr/>
+                                <img class="img-polaroid" src="img/projects/logo-nola.jpg">
+                                <p>The city wants to eliminate inefficiencies and establish a parking-management plan. It also wants to explore the potential creation of a parking authority. Ultimately, the FCG aims to give the city a set of well-researched set of options and a recommendation as to which options they should pursue, backed up by financial projections.</p>
+                            </div>
+                            <div id="cultural_econ" class="tab-pane fade">
+                                <h4>Mayor's Office of Cultural Economy</h4>
+                                <hr/>
+                                <img class="img-polaroid" src="img/projects/logo-nola.jpg">
+                                <p>The Freeman Consulting Group team will assist the Mayor's Office of Cultural Economy with outlining and potentially helping to streamline the process for application and reception of state tax credits for Live Performance productions. While the movie industry and large film production space has grown rapidly through the frequent use of the Film Tax credit program, only one known Live Production (Addams Family) has qualified, applied and received the tax credits, and the process took nearly 10 months.</p>
+                            </div>
+                            <div id="offshore" class="tab-pane fade">
+                                <h4>Offshore Inland</h4>
+                                <hr/>
+                                <img class="img-polaroid" src="img/projects/logo-offshore.gif">
+                                <p>Offshore Inland (OI) is an oilfield and marine contracting services provider that designs, fabricates and installs rig and ship upgrades and repairs. They currently have five US locations: Port Fourchon, Galveston, Mobile and Pensacola. The project will focus on their two newest locations, Pensacola and Galveston, and will include a feasibility study and strategic plan for each.</p>
+                            </div>
+                            <div id="robinson" class="tab-pane fade">
+                                <h4>Robinson Lumber</h4>
+                                <hr/>
+                                <img class="img-polaroid" src="img/projects/logo-robinson.jpg">
+                                <p>Robinson Lumber is a locally owned lumber supplier that practices sustainable forest management while provider top-quality tropical wood. The FCG will help Robinson Lumber by measuring customers' and employees' perceptions of the firm and recommending ways to improve satisfaction among both.</p>
+                            </div>
+                            <div id="south_coast" class="tab-pane fade">
+                                <h4>South Coast Angel Fund</h4>
+                                <hr/>
+                                <img class="img-polaroid" src="img/projects/logo-south_coast.png">
+                                <p>South Coast Angel Fund is a member-managed venture-capital fund that invests primarily in the Gulf Coast region. The Freeman Consulting Group team will assist South Coast Angel Fund by exploring alternative methods of reporting key financial and operational metrics from firms in which South Coast has invested.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- content end-->
+                </div>
+                
+                <!-- right column -->
+                <div class="span2">
+                    <ul class="nav nav-list affix">
+                        <li class="nav-header"><i class="icon-info-sign"></i>Links</li>
+                        <li><a href="http://www.tulane.edu" target="_blank">Tulane University</a></li>
+                        <li><a href="http://www.freeman.tulane.edu" target="_blank">A.B.Freeman School of Business</a></li>
+                        <li><a href="http://www.freeman.tulane.edu/centers/lri/default.php/" target="_blank">Levy-Rosenblum Institute for Entrepreneurship</a></li>
+                        <li><a href="http://www.freeman.tulane.edu/centers/fbc/default.php" target="_blank">Tulane Family Business Center</a></li>
+                        <li class="divider"></li>
+                        <li class="nav-header"><i class="icon-thumbs-up"></i>Follow us on</li>
+                        <ul class="nav nav-bar">
+                            <li><a href="http://www.facebook.com/TulaneFCG" target="_blank"><img src="img/FB-logo.png" alt="Facebook"> TulaneFCG</a></li>
+                            <li><a href="http://twitter.com/#%21/TulaneFCG" target="_blank"><img src="img/twitter-logo.png" alt="Twitter"> @TulaneFCG</a></li>
+<!--                            <li><a href="https://plus.google.com/114439385545663459903" rel="publisher">Google+</a></li>-->
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy;2013 Freeman Consulting Group | Made with <a href="http://getbootstrap.com/">Bootstrap</a></p>
+                <p><a href="http://glyphicons.com">Glyphicons Free</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></p>
+            </div>
+        </footer>
+        
+    </body>
+</html>
